@@ -4,9 +4,12 @@
    $sql="SELECT * from bus where id_bus='$id_bus'";
    $result=mysql_query($sql);
    $rows=mysql_fetch_array($result);
+
 ?>
 
 
+
+ 
 <!DOCTYPE html>
 <html>
 <head>

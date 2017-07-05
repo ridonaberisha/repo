@@ -7,6 +7,9 @@ function convertToWindowsCharset($string) {
     true
   );
  
+
+
+ 
   $string =  mb_convert_encoding($string, "Windows-1252", $charset);
   return $string;
 }

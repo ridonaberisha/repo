@@ -5,6 +5,9 @@
 <title>BUS</title>
 </head>
 
+
+
+
   <?php
     $con=mysqli_connect("localhost","root","","fly");
     $from_city_bus=$_GET['from_city_bus'];
